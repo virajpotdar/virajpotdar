@@ -1,85 +1,47 @@
-<!-- Hero Banner -->
+<h2 align="center">⚡ Tech Stack</h2>
+
 <p align="center">
 
-<img src="./contrib-heatmap.svg" width="900"/>
+<img src="https://skillicons.dev/icons?i=java,python,javascript,spring,react,docker,jenkins,git,github,linux,postgres,mysql,postman,vscode,grafana&perline=5" />
 
 </p>
 
 <br>
 
-<!-- Profile -->
-<p align="center">
+<table align="center">
+<tr>
+<td align="center">
 
-<img src="./avi-ascii.svg" width="360"/>
-&nbsp;&nbsp;&nbsp;
-<img src="./info-card.svg" width="470"/>
+### 💻 Languages
 
-</p>
+Java • Python • JavaScript • SQL
 
-<br><br>
+</td>
 
----
+<td align="center">
 
-## 🛠 Tech Stack
+### ⚙ Backend
 
-<p align="center">
+Spring Boot • REST API • Hibernate
 
-<img src="https://skillicons.dev/icons?i=java,python,spring,react,docker,jenkins,git,github,linux,postgres,mysql,postman,vscode"/>
+</td>
+</tr>
 
-</p>
+<tr>
+<td align="center">
 
----
+### 🚀 DevOps
 
-## ⚡ Workflow
+Docker • Jenkins • CI/CD • Linux
 
-```text
-VS Code
-   │
-   ▼
-Git ─────► GitHub
-   │
-   ▼
-Jenkins
-   │
-   ▼
-Docker
-   │
-   ▼
-Deploy
-   │
-   ▼
-Grafana
-```
+</td>
 
----
+<td align="center">
 
-## 📊 Engineering
+### 🔧 Tools
 
-<p align="center">
+Git • GitHub • VS Code • Postman • Grafana
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=virajpotdar&show_icons=true&theme=github_dark&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=virajpotdar&layout=compact&theme=github_dark&hide_border=true"/>
-
-</p>
-
----
-
-## 🚀 Currently Building
-
-```text
-✓ Backend APIs
-✓ Spring Boot Services
-✓ Dockerized Applications
-✓ CI/CD Pipelines
-✓ Monitoring Dashboards
-✓ Automation Workflows
-```
-
----
-
-<p align="center">
-
-### Thanks for visiting 👋
-
-</p>
+</td>
+</tr>
+</table>
