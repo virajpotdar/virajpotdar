@@ -1,44 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="490px" height="370px" viewBox="0 0 490 370" role="img" aria-label="Neofetch info card">
-  <style>
-    .bg { fill: #0d1117; }
-    .card { fill: #01040a; stroke: #21262d; }
-    .title { font-family: Inter,Segoe UI,Helvetica,Arial,sans-serif; fill: #58a6ff; font-size:20px; font-weight:700 }
-    .label { font-family: Inter,Segoe UI,Helvetica,Arial,sans-serif; fill: #8b949e; font-size:12px }
-    .value { font-family: Inter,Segoe UI,Helvetica,Arial,sans-serif; fill: #c9d1d9; font-size:13px }
-  </style>
-  <rect width="100%" height="100%" class="bg" />
-  <g transform="translate(16,16)">
-    <rect class="card" x="0" y="0" width="458" height="338" rx="8" ry="8" />
-    <!-- Left: avatar box -->
-    <rect x="18" y="18" width="150" height="150" rx="6" ry="6" fill="#161b22" stroke="#1f2933" />
-    <text x="96" y="100" font-family="monospace" font-size="18" fill="#c9d1d9" text-anchor="middle">AVI</text>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="490"
+     height="370"
+     viewBox="0 0 490 370">
 
-    <!-- Right: info -->
-    <text x="190" y="40" class="title">Viraj Vivek Potdar</text>
-    <text x="190" y="64" class="label">Software Engineer · Open Source</text>
+<style>
+.bg{fill:#0d1117}
+.card{fill:#161b22;stroke:#30363d;stroke-width:1.5}
+.title{font:700 20px monospace;fill:#58a6ff}
+.label{font:12px monospace;fill:#8b949e}
+.value{font:13px monospace;fill:#c9d1d9}
+.green{fill:#3fb950}
+.line{
+opacity:0;
+animation:fade .45s ease forwards;
+}
+@keyframes fade{
+from{opacity:0;transform:translateX(-8px)}
+to{opacity:1;transform:translateX(0)}
+}
+</style>
 
-    <g transform="translate(190,90)">
-      <text x="0" y="0" class="label">Location</text>
-      <text x="0" y="18" class="value">Sangli </text>
+<rect class="bg" width="490" height="370"/>
 
-      <text x="0" y="46" class="label">Languages</text>
-      <text x="0" y="64" class="value">Python · JavaScript · Java </text>
+<rect x="15" y="15"
+      width="460"
+      height="340"
+      rx="12"
+      class="card"/>
 
-      <text x="0" y="92" class="label">Work</text>
-      <text x="0" y="110" class="value">Building developer tools & automation</text>
+<!-- Window Buttons -->
+<circle cx="35" cy="33" r="5" fill="#ff5f56"/>
+<circle cx="50" cy="33" r="5" fill="#ffbd2e"/>
+<circle cx="65" cy="33" r="5" fill="#27c93f"/>
 
-      <text x="0" y="142" class="label">Contact 9764482435</text>
-    </g>
+<text x="85" y="37"
+      font-family="monospace"
+      font-size="12"
+      fill="#8b949e">
+terminal
+</text>
 
-    <!-- Footer stats -->
-    <text x="18" y="200" class="label">Third year Student at DYPCET Kolhapur</text>
-    <text x="190" y="200" class="label">Uptime</text>
-    <text x="250" y="200" class="value">5 days</text>
+<text x="28" y="70" class="title">
+~/profile
+</text>
 
-    <!-- small divider -->
-    <line x1="18" y1="220" x2="440" y2="220" stroke="#161b22" stroke-width="1" />
-    <text x="18" y="238" class="label">Updated</text>
-    <text x="90" y="238" class="value">2026-07-25</text>
-  </g>
+<line x1="25"
+      y1="82"
+      x2="460"
+      y2="82"
+      stroke="#30363d"/>
+
+<g class="line" style="animation-delay:.2s">
+<text x="28" y="110" class="label">Name</text>
+<text x="150" y="110" class="value">Viraj Vivek Potdar</text>
+</g>
+
+<g class="line" style="animation-delay:.4s">
+<text x="28" y="135" class="label">Role</text>
+<text x="150" y="135" class="value">Software Engineer</text>
+</g>
+
+<g class="line" style="animation-delay:.6s">
+<text x="28" y="160" class="label">Location</text>
+<text x="150" y="160" class="value">Sangli, Maharashtra</text>
+</g>
+
+<g class="line" style="animation-delay:.8s">
+<text x="28" y="185" class="label">Languages</text>
+<text x="150" y="185" class="value">
+Python • Java • JavaScript
+</text>
+</g>
+
+<g class="line" style="animation-delay:1s">
+<text x="28" y="210" class="label">Focus</text>
+<text x="150" y="210" class="value">
+Backend • AI • Automation
+</text>
+</g>
+
+<g class="line" style="animation-delay:1.2s">
+<text x="28" y="235" class="label">GitHub</text>
+<text x="150" y="235" class="value">
+github.com/virajpotdar
+</text>
+</g>
+
+<g class="line" style="animation-delay:1.4s">
+<text x="28" y="260" class="label">Status</text>
+<text x="150" y="260" class="green">
+Open to Opportunities
+</text>
+</g>
+
+<line x1="25"
+      y1="290"
+      x2="460"
+      y2="290"
+      stroke="#30363d"/>
+
+<text x="28"
+      y="320"
+      class="label">
+Built with Python • SVG • GitHub Actions
+</text>
+
 </svg>
