@@ -7,18 +7,15 @@
      aria-label="Contribution heatmap for virajpotdar">
 
   <style>
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
-
 text{
-    font-family:'JetBrains Mono','Segoe UI',monospace;
-    fill:#e6edf3;
+    font-family:monospace;
+    fill:#c9d1d9;
     font-size:12px;
-    letter-spacing:.4px;
 }
 
 .title{
     font-size:18px;
-    font-weight:600;
+    font-weight:bold;
     fill:#58a6ff;
 }
 
@@ -27,7 +24,7 @@ text{
 }
 
 .bg{
-    fill:url(#bgGradient);
+    fill:#0d1117;
 }
 
 .border{
@@ -42,31 +39,13 @@ text{
 .l3{fill:#26a641;}
 .l4{fill:#39d353;}
 
-rect[class^="l"]{
-    transition:.3s;
-    animation:fade .7s ease forwards;
-    opacity:0;
-    transform-origin:center;
-}
-
-rect[class^="l"]:hover{
-    filter:url(#glow);
+.l0,.l1,.l2,.l3,.l4{
+    animation:fade .8s ease forwards;
 }
 
 @keyframes fade{
-    from{
-        opacity:0;
-        transform:scale(.4);
-    }
-    to{
-        opacity:1;
-        transform:scale(1);
-    }
-}
-
-.legend{
-    fill:#8b949e;
-    font-size:11px;
+    from{opacity:0;}
+    to{opacity:1;}
 }
 </style>
   <rect class="bg" width="860" height="260"/>
