@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260" role="img" aria-label="Contribution heatmap for virajpotdar">
-  <style>
-    text { font-family: Inter,Segoe UI,Helvetica,Arial,sans-serif; }
-  </style>
-  <rect width="100%" height="100%" fill="#0d1117" />
-  <text x="430" y="22" font-size="16" fill="#c9d1d9" text-anchor="middle">Contributions</text>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="860"
+     height="260"
+     viewBox="0 0 860 260"
+     role="img"
+     aria-label="Contribution heatmap for virajpotdar">
 
-  <!-- Static heatmap grid (rendered so GitHub preview can display) -->
-  <g id="heatmap" transform="translate(40,40)">
+  <style>
+    text{
+      font-family:Segoe UI,Arial,sans-serif;
+      fill:#c9d1d9;
+      font-size:12px;
+    }
+
+    .bg{fill:#0d1117;}
+    .border{fill:none;stroke:#30363d;}
+    .l0{fill:#161b22;}
+    .l1{fill:#0e4429;}
+    .l2{fill:#006d32;}
+    .l3{fill:#26a641;}
+    .l4{fill:#39d353;}
+  </style>
+
+  <rect class="bg" width="860" height="260"/>
+
+  <rect x="10" y="10" width="840" height="240" rx="10" class="border"/>
+
+  <text x="430" y="28" text-anchor="middle" font-size="18">
+    GitHub Contribution Heatmap
+  </text>
+
+  <g transform="translate(55,55)">
+
+    <!-- Week 1 -->
+    <rect x="0" y="0" width="11" height="11" rx="2" class="l2"/>
+    <rect x="0" y="15" width="11" height="11" rx="2" class="l1"/>
+    <rect x="0" y="30" width="11" height="11" rx="2" class="l4"/>
+    <rect x="0" y="45" width="11" height="11" rx="2" class="l0"/>
+    <rect x="0" y="60" width="11" height="11" rx="2" class="l3"/>
+    <rect x="0" y="75" width="11" height="11" rx="2" class="l1"/>
+    <rect x="0" y="90" width="11" height="11" rx="2" class="l2"/>
+
+    <!-- Week 2 -->
+    <rect x="15" y="0" width="11" height="11" rx="2" class="l3"/>
+    <rect x="15" y="15" width="11" height="11" rx="2" class="l2"/>
+    <rect x="15" y="30" width="11" height="11" rx="2" class="l1"/>
+    <rect x="15" y="45" width="11" height="11" rx="2" class="l4"/>
+    <rect x="15" y="60" width="11" height="11" rx="2" class="l2"/>
+    <rect x="15" y="75" width="11" height="11" rx="2" class="l3"/>
+    <rect x="15" y="90" width="11" height="11" rx="2" class="l0"/>
+
+    <!-- Replace this section with your generated 53×7 cells -->
+
+  </g>
+
+  <text x="55" y="210">Less</text>
+
+  <rect x="95" y="200" width="10" height="10" rx="2" class="l0"/>
+  <rect x="110" y="200" width="10" height="10" rx="2" class="l1"/>
+  <rect x="125" y="200" width="10" height="10" rx="2" class="l2"/>
+  <rect x="140" y="200" width="10" height="10" rx="2" class="l3"/>
+  <rect x="155" y="200" width="10" height="10" rx="2" class="l4"/>
+
+  <text x="175" y="210">More</text>
+
+  <text x="430" y="238" text-anchor="middle">
+    343 contributions in the last year
+  </text>
+
+</svg>
