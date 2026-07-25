@@ -23,16 +23,3 @@
 <br><br>
 
 <img src="https://skillicons.dev/icons?i=java,python,javascript,spring,react,docker,jenkins,git,github,linux,postgres,mysql,postman,vscode,grafana&theme=dark&perline=8" />
-
-<br><br>
-
-```text
-Backend     Spring Boot • REST API • Hibernate
-Languages   Java • Python • JavaScript • SQL
-DevOps      Docker • Jenkins • CI/CD • Linux
-Database    PostgreSQL • MySQL
-Monitoring  Grafana • Logs
-Tools       Git • GitHub • VS Code • Postman
-```
-
-</p>
