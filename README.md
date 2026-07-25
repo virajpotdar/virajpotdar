@@ -1,22 +1,20 @@
+<h1 align="center">Viraj Potdar</h1>
 
 <p align="center">
-<br>
-<div style="display:inline-block; border:1px solid #30363d; padding:10px; background:#0d1117;">
-  <img src="./contrib-heatmap.svg" width="860px" alt="Contribution heatmap for virajpotdar" />
-</div>
-<br>
-<br>
-<br>
+Software Engineer • Backend • DevOps • Automation
+</p>
 
-<table align="center" cellspacing="12">
-  <tr>
-    <td align="center" valign="top" width="370">
-      <img src="./avi-ascii.svg" width="370px" alt="ASCII portrait" />
-    </td>
-    <td align="center" valign="top" width="490">
-      <img src="./info-card.svg" width="490px" alt="Neofetch info card" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+<img src="./contrib-heatmap.svg" width="860"/>
+</p>
+
+<p align="center">
+<img src="./avi-ascii.svg" width="360"/>
+<img src="./info-card.svg" width="470"/>
+</p>
+
+<p align="center">
+
+`Java` • `Python` • `Spring Boot` • `Docker` • `Jenkins` • `CI/CD` • `Git` • `Postman` • `Grafana`
 
 </p>
