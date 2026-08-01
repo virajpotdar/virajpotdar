@@ -86,11 +86,16 @@ text{
   <rect x="125" y="200" width="10" height="10" rx="2" class="l2"/>
   <rect x="140" y="200" width="10" height="10" rx="2" class="l3"/>
   <rect x="155" y="200" width="10" height="10" rx="2" class="l4"/>
+      <rect x="155" y="200" width="10" height="10" rx="2" class="l4"/>
+      <rect x="155" y="200" width="10" height="10" rx="2" class="l4"/>
+      <rect x="155" y="200" width="10" height="10" rx="2" class="l4"/>
+      <rect x="155" y="200" width="10" height="10" rx="2" class="l4"/>
+     
 
   <text x="175" y="210">More</text>
 
   <text x="430" y="238" text-anchor="middle">
-    343 contributions in the last year
+    311 contributions in this year
   </text>
 
 </svg>
