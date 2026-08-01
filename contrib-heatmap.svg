@@ -12,7 +12,6 @@ text{
     fill:#c9d1d9;
     font-size:12px;
 }
-
 .title{
     font-size:18px;
     font-weight:bold;
