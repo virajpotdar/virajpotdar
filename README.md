@@ -1,9 +1,6 @@
 <p align="center">
 
 <br>
-
-<img src="./contrib-heatmap.svg" width="860px" alt="Contribution Heatmap" />
-
 <br><br><br>
 
 <table align="center" cellspacing="12">
