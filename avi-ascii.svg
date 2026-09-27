@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="370"
+     height="370"
+     viewBox="0 0 370 370"
+     role="img"
+     aria-label="Developer Terminal">
+
+  <rect width="100%" height="100%" fill="#0d1117"/>
+
+  <g transform="translate(20,35)"
+     font-family="monospace"
+     font-size="12"
+     fill="#c9d1d9">
+
+    <text x="0" y="0">╔══════════════════════════════╗</text>
+    <text x="0" y="16">║     SOFTWARE ENGINEER        ║</text>
+    <text x="0" y="32">╚══════════════════════════════╝</text>
+
+    <text x="0" y="70">$ stack</text>
+
+    <text x="20" y="95">├─ Java</text>
+    <text x="20" y="111">├─ Python</text>
+    <text x="20" y="127">├─ Spring Boot</text>
+    <text x="20" y="143">├─ Docker</text>
+    <text x="20" y="159">├─ Jenkins</text>
+    <text x="20" y="175">├─ Git</text>
+    <text x="20" y="191">├─ Postman</text>
+    <text x="20" y="207">├─ Grafana</text>
+    <text x="20" y="223">└─ CI/CD</text>
+
+    <text x="0" y="265" fill="#58a6ff">
+&lt;/&gt; { } [ ] ( ) == != :: =&gt;
+    </text>
+
+    <text x="0" y="295" fill="#39d353">
+$ ready_to_build ✓
+    </text>
+
+  </g>
+
+  <rect x="2"
+        y="2"
+        width="366"
+        height="366"
+        rx="8"
+        fill="none"
+        stroke="#30363d"/>
+
+</svg>
