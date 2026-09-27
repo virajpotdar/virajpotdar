@@ -33,12 +33,12 @@
 <p align="center">
   <img
     height="180"
-    src="https://github-readme-stats.vercel.app/api?username=virajpotdar&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=86400"
-    alt="Viraj Potdar's GitHub Stats"
+    src="https://github-readme-stats.vercel.app/api?username=virajpotdar&show_icons=true&theme=github_dark&hide_border=true"
+    alt="GitHub Stats"
   />
   <img
     height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=virajpotdar&layout=compact&theme=github_dark&hide_border=true&langs_count=8&cache_seconds=86400"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=virajpotdar&layout=compact&theme=github_dark&hide_border=true"
     alt="Top Languages"
   />
 </p>
